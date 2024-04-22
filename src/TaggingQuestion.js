@@ -2,6 +2,10 @@ import { LitElement, html, css } from 'lit';
 import { DDD } from "@lrnwebcomponents/d-d-d/d-d-d.js";
 
 class TaggingQuestion extends DDD {
+    static get tag() {
+    return 'tagging-question';
+  }
+  
     static get properties() {
         return {
             tagData: { type: Array }
@@ -153,4 +157,4 @@ class TaggingQuestion extends DDD {
     }
 }
 
-customElements.define('tagging-question', TaggingQuestion);
+globalThis.customElements.define(TaggingQuestion.tag, TaggingQuestion);
