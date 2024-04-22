@@ -24,6 +24,23 @@
 </head>
 
 <body>
+
+
+    <tagging-question>
+      <div slot="question">Which of the following big ideas would YOU associate with this artistic work?</div>
+      <script type="application/json" id="tag-data">
+            [
+                {"tag": "good form", "correct": true, "feedback": "The shape of the vase clearly demonstrates craftsmanship"},
+                {"tag": "poor taste", "correct": false, "feedback": "Taste is in the eye of the designer as well as the viewer."},
+                {"tag": "contrasting themes", "correct": false, "feedback": "There is uniformity in the shape, but there is no depth to this media to imply that it is contrasting with other figures."},
+                {"tag": "AI", "correct": true, "feedback": "While a modification of prior work, this is still AI generative work."},
+                {"tag": "shading", "correct": false, "feedback": "While there is a light source and a shadow cast, shading is a term used for pencil based sketching"},
+                {"tag": "original work", "correct": true, "feedback": "This character is not based on any person, place, or existing trope"},
+                {"tag": "accessible", "correct": false, "feedback": "The color scheme, while high contrast in some areas, loses form in others and has written text unrelated to the character"}
+            ]
+        </script>
+    </tagging-question>
+
   <h1>polaris-chip</h1>
   <!-- this is going to do whatever the tag's defaults are -->
   <polaris-chip title="News of Record" link="https://psu.edu/"></polaris-chip>
@@ -37,6 +54,7 @@
   <!-- this is what is bringing in the definition for this tag -->
   <script type="module" src="./src/polaris-chip.js"></script>
   <script type="module" src="./src/my-card.js"></script>
+  <script type="module" src="./src/TaggingQuestion.js"></script>
 </body>
 
 </html>
