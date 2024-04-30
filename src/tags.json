@@ -1,0 +1,157 @@
+{
+  "default": {
+    "tagOptions": [
+      "default btn",
+      "default btn"
+    ],
+    "tagAnswers": [
+      {
+        "default btn - true": {
+          "correct": true,
+          "feedback": "default feedback option true"
+        }
+      },
+      {
+        "default btn - false": {
+          "correct": false,
+          "feedback": "default feedback option false"
+        }
+      }
+    ]
+  },
+
+
+  "haxLogo": {
+    "tagOptions": [
+      "good form",
+      "poor taste",
+      "contrasting themes",
+      "AI",
+      "shading",
+      "original work",
+      "accessible"
+    ],
+    "tagAnswers": [
+      {
+        "good form": {
+          "correct": false,
+          "feedback": "The shape of the vase clearly demonstrates craftsmanship."
+        }
+      },
+      {
+        "poor taste": {
+          "correct": false,
+          "feedback": "Taste is in the eye of the designer as well as the viewer."
+        }
+      },
+      {
+        "contrasting themes": {
+          "correct": false,
+          "feedback": "There is uniformity in the shape, but there is no depth to this media to imply that it is contrasting with other figures."
+        }
+      },
+      {
+        "AI": {
+          "correct": true,
+          "feedback": "While a modification of prior work, this is still AI generative work."
+        }
+      },
+      {
+        "shading": {
+          "correct": false,
+          "feedback": "While there is a light source and a shadow cast, shading is a term used for pencil based sketching."
+        }
+      },
+      {
+        "original work": {
+          "correct": false,
+          "feedback": "Artwork created from generative AI can not be original since it is trained on other artists' work."
+        }
+      },
+      {
+        "accessible": {
+          "correct": false,
+          "feedback": "The color scheme while high contrast in some areas, loses form in others and has written text unrelated to the character."
+        }
+      }
+    ]
+  },
+
+
+  "chopper": {
+    "tagOptions": [
+      "puppy",
+      "kitty",
+      "reindear",
+      "doctor",
+      "adorable",
+      "small",
+      "large",
+      "well-mannered",
+      "ugly",
+      "cute"
+    ],
+    "tagAnswers": [
+      {
+        "puppy": {
+          "correct": false,
+          "feedback": "Not a puppy dummy."
+        }
+      },
+      {
+        "kitty": {
+          "correct": false,
+          "feedback": "Not a kitty dummy."
+        }
+      },
+      {
+        "reindeer": {
+          "correct": true,
+          "feedback": "What does he look like then?"
+        }
+      },
+      {
+        "doctor": {
+          "correct": true,
+          "feedback": "Sure looks like a doctor to me."
+        }
+      },
+      {
+        "adorable": {
+          "correct": true,
+          "feedback": "Of course he's adorable! This is the one and only cotton candy lover Dr. Chopper."
+        }
+      },
+      {
+        "small": {
+          "correct": true,
+          "feedback": "He's small but he is also strong."
+        }
+      },
+      {
+        "large": {
+          "correct": false,
+          "feedback": "He can get bigger be he's not usually large"
+        }
+      },
+      {
+        "well-mannered": {
+          "correct": true,
+          "feedback": "He's a docotor of course he is."
+        }
+      },
+      {
+        "ugly": {
+          "correct": false,
+          "feedback": "The only one ugly is your musty face."
+        }
+      },
+      {
+        "cute": {
+          "correct": true,
+          "feedback": "If he's adorable then why would he not be cute."
+        }
+      }
+    ]
+  }
+}
